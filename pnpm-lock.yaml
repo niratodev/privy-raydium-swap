@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@privy-io/react-auth':
-        specifier: ^2.7.2
-        version: 2.7.2(@react-native-async-storage/async-storage@1.24.0(react-native@0.78.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.12)(bufferutil@4.0.9)(react@19.1.0)(utf-8-validate@5.0.10)))(@solana/web3.js@1.98.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@types/react@19.0.12)(bs58@5.0.0)(bufferutil@4.0.9)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.7.3)(use-sync-external-store@1.2.0(react@19.1.0))(utf-8-validate@5.0.10)(zod@3.24.2)
+        specifier: ^2.8.0
+        version: 2.8.0(@react-native-async-storage/async-storage@1.24.0(react-native@0.78.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.12)(bufferutil@4.0.9)(react@19.1.0)(utf-8-validate@5.0.10)))(@solana/web3.js@1.98.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@types/react@19.0.12)(bs58@5.0.0)(bufferutil@4.0.9)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.7.3)(use-sync-external-store@1.2.0(react@19.1.0))(utf-8-validate@5.0.10)(zod@3.24.2)
       '@raydium-io/raydium-sdk-v2':
         specifier: 0.1.118-alpha
         version: 0.1.118-alpha(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.7.3)(utf-8-validate@5.0.10)
@@ -1235,8 +1235,8 @@ packages:
   '@privy-io/chains@0.0.1':
     resolution: {integrity: sha512-UVRK4iSCmMx1kPt2b6Dolu4dBzesB7DvwEFMFaYggDCVlKXYtuRB7QxeHcKsLpeU9swluiBDAw4r5udG1xCpNg==}
 
-  '@privy-io/js-sdk-core@0.46.3':
-    resolution: {integrity: sha512-R3qIxkK9hpJOfhznGMGL/F9vhZY2GJYn45LVoxS1NUA4c2914rlaE0RhfE8OHs2Z9qGh51ZuNsrHtZALUAWLSA==}
+  '@privy-io/js-sdk-core@0.46.4':
+    resolution: {integrity: sha512-jqUJZSwN2Bq8ykLIVM/WhSXLf8/1AtSV4kNBJkDPF1dCcmHTYFD+4ISv6A02u3kQOxe6zDzChc/OLbJ+HkMCFw==}
     peerDependencies:
       permissionless: ^0.2.10
       viem: ^2.21.36
@@ -1246,12 +1246,12 @@ packages:
       viem:
         optional: true
 
-  '@privy-io/public-api@2.20.3':
-    resolution: {integrity: sha512-r6Q8QpcStK6AJZ09Rt+Nr7n4RZcZqxfLA5f3M2RO1egV+6F1c//LmG+qk4cS1UM3k0GHsH/RYMZMEJvspJqVIQ==}
+  '@privy-io/public-api@2.20.4':
+    resolution: {integrity: sha512-8hx4kBB9M8NA1k3UXmqEINgQNlGsfeE0EUi3Ns05Kyg3Y9LZ/qyi1VQZ+JOyKvxo4scMeZBg7OJHrGPkcJ095A==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
 
-  '@privy-io/react-auth@2.7.2':
-    resolution: {integrity: sha512-skiuQr2Q8dM2EAKlH/bUjjvfUg9/iUVINfRNfYEuZ6FhhSezZ5WBjkb5vRtE+2BzHnE4k/Qp4RisKZnUgpxE3g==}
+  '@privy-io/react-auth@2.8.0':
+    resolution: {integrity: sha512-wE1j/QfCB06ceNtRAk4z3ZeaG2oLKH6c5EfLOdxcI4NY+ylo00cmwmYWU6FspyTmPE2biJwVIgQGX7nhNaYnfQ==}
     peerDependencies:
       '@abstract-foundation/agw-client': ^1.0.0
       '@solana/web3.js': ^1.95.8
@@ -6014,7 +6014,7 @@ snapshots:
 
   '@privy-io/chains@0.0.1': {}
 
-  '@privy-io/js-sdk-core@0.46.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(viem@2.24.2(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.24.2))':
+  '@privy-io/js-sdk-core@0.46.4(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(viem@2.24.2(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.24.2))':
     dependencies:
       '@ethersproject/abstract-signer': 5.8.0
       '@ethersproject/bignumber': 5.8.0
@@ -6024,7 +6024,7 @@ snapshots:
       '@ethersproject/units': 5.8.0
       '@privy-io/api-base': 1.4.5
       '@privy-io/chains': 0.0.1
-      '@privy-io/public-api': 2.20.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)
+      '@privy-io/public-api': 2.20.4(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)
       canonicalize: 2.1.0
       eventemitter3: 5.0.1
       fetch-retry: 6.0.0
@@ -6040,7 +6040,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@privy-io/public-api@2.20.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)':
+  '@privy-io/public-api@2.20.4(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)':
     dependencies:
       '@privy-io/api-base': 1.4.5
       bs58: 5.0.0
@@ -6052,7 +6052,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@privy-io/react-auth@2.7.2(@react-native-async-storage/async-storage@1.24.0(react-native@0.78.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.12)(bufferutil@4.0.9)(react@19.1.0)(utf-8-validate@5.0.10)))(@solana/web3.js@1.98.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@types/react@19.0.12)(bs58@5.0.0)(bufferutil@4.0.9)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.7.3)(use-sync-external-store@1.2.0(react@19.1.0))(utf-8-validate@5.0.10)(zod@3.24.2)':
+  '@privy-io/react-auth@2.8.0(@react-native-async-storage/async-storage@1.24.0(react-native@0.78.1(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.12)(bufferutil@4.0.9)(react@19.1.0)(utf-8-validate@5.0.10)))(@solana/web3.js@1.98.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(@types/react@19.0.12)(bs58@5.0.0)(bufferutil@4.0.9)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.7.3)(use-sync-external-store@1.2.0(react@19.1.0))(utf-8-validate@5.0.10)(zod@3.24.2)':
     dependencies:
       '@coinbase/wallet-sdk': 4.3.0
       '@floating-ui/react': 0.26.28(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -6061,7 +6061,7 @@ snapshots:
       '@marsidev/react-turnstile': 0.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@metamask/eth-sig-util': 6.0.2
       '@privy-io/chains': 0.0.1
-      '@privy-io/js-sdk-core': 0.46.3(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(viem@2.24.2(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.24.2))
+      '@privy-io/js-sdk-core': 0.46.4(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(viem@2.24.2(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.24.2))
       '@simplewebauthn/browser': 9.0.1
       '@solana/wallet-adapter-base': 0.9.23(@solana/web3.js@1.98.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))
       '@solana/wallet-standard-wallet-adapter-base': 1.1.4(@solana/web3.js@1.98.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(bs58@5.0.0)
